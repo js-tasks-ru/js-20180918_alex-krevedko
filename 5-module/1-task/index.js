@@ -5,4 +5,10 @@
  * @param {Element} table
  */
 function highlight(table) {
+
 }
+
+
+
+
+
