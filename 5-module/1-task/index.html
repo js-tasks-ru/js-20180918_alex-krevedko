@@ -52,42 +52,8 @@
     <script>
 
 
-			let td = document.getElementsByTagName("td");
+        highlight(document.querySelector('.js-teachers'));
 
-			for (i = 0; i < td.length; i++){
-
-				if (td[i].innerHTML === "m") {
-					td[i].classList.add("male");
-
-        }
-				else if (td[i].innerHTML === "f"){
-					td[i].classList.add("female");
-				};
-
-			var attribute = td[i].getAttribute("data-available");
-
-			if (td[i].getAttribute("data-available") == "true"){
-				td[i].classList.add("available");
-
-      }
-
-      else if (td[i].getAttribute("data-available") == "false") {
-        td[i].classList.add("unavailable")
-			}
-
-			};
-
-
-
-
-
-
-
-
-
-
-
-			//highlight(document.querySelector('.js-teachers'));
     </script>
 </body>
 </html>
