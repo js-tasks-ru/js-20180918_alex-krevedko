@@ -8,11 +8,11 @@ function highlight(table) {
 
 	let td = document.getElementsByTagName("td");
 
-	for (i = 0; i < td.length; i++) {
+	for (let i = 0; i < td.length; i++) {
 
 		if (+td[i].innerHTML < 18) {
 			td[i].style.textDecoration = "line-through";
-		}
+		};
 
 		if (td[i].innerHTML === "m") {
 			td[i].classList.add("male");
@@ -28,15 +28,15 @@ function highlight(table) {
 		}
 
 		else if (td[i].getAttribute("data-available") == "false") {
-			td[i].classList.add("unavailable")
+			td[i].classList.add("unavailable");
 		}
 
 		else {
 			td[i].setAttribute("hidden", true);
-		}
+		};
 	};
 
-}
+};
 
 
 
