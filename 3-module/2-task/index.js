@@ -33,4 +33,4 @@ for (let day of calendar) {
         console.log(date.getUTCDate().toString());
     }
 
-}
+};

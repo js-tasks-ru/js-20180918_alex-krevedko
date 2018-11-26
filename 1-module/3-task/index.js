@@ -18,6 +18,6 @@ function getMinMax(string) {
             sss.push(psf);
         }
 
-    }
+    };
     return [Math.min.apply(Math, minMax), Math.max.apply(Math, minMax)];
-}
+};
