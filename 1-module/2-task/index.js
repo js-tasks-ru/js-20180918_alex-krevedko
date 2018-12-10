@@ -1,8 +1,5 @@
 'use strict';
 
-function print(text) {
-    alert(text);
-}
 
 /**
  * Эту функцию нужно поменять так,
