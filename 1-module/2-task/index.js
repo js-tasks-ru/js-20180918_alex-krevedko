@@ -11,8 +11,7 @@ function print(text) {
 function isValid(name) {
     let validName = name.match(/^[а-яёЁa-z]{4,}$/i);
     return validName;
-    //либо return name.match(/^[а-яёЁa-z]{4,}$/i);
-}
+};
 
 function sayHello() {
     let userName = prompt('Введите ваше имя');
@@ -22,6 +21,6 @@ function sayHello() {
     } else {
         print('Некорректное имя');
     }
-}
+};
 
 sayHello();

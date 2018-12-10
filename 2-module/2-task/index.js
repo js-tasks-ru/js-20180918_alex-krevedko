@@ -4,7 +4,6 @@
  * @param {*} value - значение, которе ищем
  * @returns {Object}
  */
-function find(obj, value) {}
 
 let obj = {
     options: {
